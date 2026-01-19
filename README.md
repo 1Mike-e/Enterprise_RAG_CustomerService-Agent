@@ -43,8 +43,8 @@ python -m venv .venv
 source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
----
 
+```
 ## Evaluation & reliability
 
 - Verified retrieval quality using manual relevance checks across representative customer queries.
@@ -63,6 +63,7 @@ The system follows a modular pipeline:
 4. Context assembly and prompt construction
 5. Local LLM generation with source attribution
 6. Response logging and basic performance metrics
+
 
 
 
