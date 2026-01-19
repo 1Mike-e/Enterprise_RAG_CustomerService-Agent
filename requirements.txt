@@ -1,4 +1,4 @@
-# AI Agents Bootcamp - Compatible Requirements
+
 # Compatible with your existing langflow==1.2.0 and langchain==0.3.10
 
 # =============================================================================
@@ -178,3 +178,4 @@ numpy>=1.24.0                    # Numerical computing
 # - Add your local DeepSeek R1 support
 
 # Ready to upgrade your AI development to the next level! 🎯
+
