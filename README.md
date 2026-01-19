@@ -43,6 +43,27 @@ python -m venv .venv
 source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
+---
+
+## Evaluation & reliability
+
+- Verified retrieval quality using manual relevance checks across representative customer queries.
+- Measured grounding by ensuring all answers include source citations from retrieved documents.
+- Tested failure cases (missing context, conflicting documents, ambiguous queries) and tuned chunking and prompt constraints to reduce hallucinations.
+- Evaluated latency and memory usage to ensure stable local inference with Ollama.
+
+---
+
+## System architecture
+
+The system follows a modular pipeline:
+1. Document ingestion and metadata normalization
+2. Semantic chunking and embedding generation
+3. Vector search using FAISS
+4. Context assembly and prompt construction
+5. Local LLM generation with source attribution
+6. Response logging and basic performance metrics
+
 
 
 
